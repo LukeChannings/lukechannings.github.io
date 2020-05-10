@@ -1,7 +1,9 @@
 ---
-Author: Luke Channings
-Date: 2020-05-10
-Tags: Kubernetes GitOps Debugging
+author: Luke Channings
+date: 2020-05-10
+tags:
+  - Kubernetes
+  - GitOps
 ---
 
 # Mistakes made and lessons learned with Kubernetes and GitOps
