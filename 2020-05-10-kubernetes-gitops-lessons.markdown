@@ -1,5 +1,6 @@
 ---
 author: Luke Channings
+category: kubernetes
 date: 2020-05-10
 tags:
   - Kubernetes
