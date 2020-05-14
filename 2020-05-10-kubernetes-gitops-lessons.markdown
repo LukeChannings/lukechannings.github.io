@@ -35,6 +35,8 @@ Before going into a deep debugging session, check the basics. Is the chart defin
 
 ## `echo`, `base64`, and the newline character
 
+> **Update:** I have been made aware of `stringData`, which allows the creation of secrets using plain-text, which would avoid this issue entirely. Check out the [documentation](https://kubernetes.io/docs/concepts/configuration/secret/#creating-a-secret-manually).
+
 Secrets in Kubernetes must be encoded as base64, this is so that people looking over your shoulder don't get a peak at your password.
 
 The problem: If you're using Terminal to generate your base64 value, you might, for example `echo 'MY SUPER SECRET PASSWORD' | base64 | pbcopy`. This looks ok on the face of it, it'll output a reasonable looking base64 string.
