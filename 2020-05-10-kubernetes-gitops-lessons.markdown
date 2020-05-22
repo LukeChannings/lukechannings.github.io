@@ -19,9 +19,9 @@ I'm writing this article to hopefully spare you some pain and frustration, and p
 
 ## Rule of thumb: Only change one thing at a time
 
-It can be tempting when you're trying to get a complex system up and running to make lots of changes across many components, but then something breaks and you don't know specifically what caused the problem.
+It can be tempting when you're trying to get a complex system up and running to make lots of changes across many components, but if something breaks you won't know what caused the problem.
 
-In my experience there are sometimes multiple things that could cause a problem, and if you've just added configuration that could be either one, you'll have a harder time debugging.
+There are sometimes multiple things that could be the cause of an issue, and if you can't be sure what changed since the problem was noticed you're going to spend a long time debugging.
 
 Small, incremental changes. Write, release, test, repeat.
 
