@@ -1,9 +1,5 @@
 # Luke's blog
 
-## What do I do
-
-# Luke's blog
-
 ## Hello! 👋
 
 I'm a freelance developer that works on Web Apps.
